@@ -12,16 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activities.ListaInteriorActivity"></activity>
-        <activity android:name=".activities.ListaSuperiorActivity" />
-        <activity android:name=".activities.SelectorActivity" />
-        <activity android:name=".activities.RegisterActivity" />
-        <activity android:name=".activities.MainActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activities.ListaInteriorActivity" />
+        <activity android:name=".activities.ListaSuperiorActivity" />
+        <activity android:name=".activities.SelectorActivity" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.MainActivity">
         </activity>
     </application>
 

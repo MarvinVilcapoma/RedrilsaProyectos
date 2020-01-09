@@ -1,15 +1,13 @@
 package pe.bonifacio.redriwebservices.activities;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-
 
 import pe.bonifacio.redriwebservices.R;
 
